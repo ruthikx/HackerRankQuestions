@@ -11,6 +11,8 @@ function getGrade(score) {
         grade = "C";
     }else if(score > 10){
         grade = "D";
+    }else if(score > 5){
+        grade = "E";
     }else{
         grade = "F";
     }
